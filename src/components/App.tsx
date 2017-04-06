@@ -47,7 +47,7 @@ export default class App extends React.Component<undefined, undefined> {
         return (
             <MuiThemeProvider muiTheme={lightMuiTheme}>
                 <Library />
-            </MuiThemeProvider>
+            </MuiThemeProvider>              
         );
     }
 }
