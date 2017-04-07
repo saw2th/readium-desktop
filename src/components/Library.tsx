@@ -79,7 +79,7 @@ export default class Library extends React.Component<undefined, ILibraryState> {
 
         return (
             <div>
-                <Toolbar>
+                <Toolbar className={'jason-class'}>
                     <ToolbarGroup firstChild={true}>
                         <DropDownMenu value={this.state.locale} onChange={this.handleLocaleChange}>
                             <MenuItem value="en" primaryText="English" />

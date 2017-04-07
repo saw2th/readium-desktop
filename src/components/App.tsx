@@ -17,7 +17,7 @@ import { IAppState } from "../reducers/app";
 import Library from "./Library";
 
 const lightMuiTheme = getMuiTheme(lightBaseTheme);
-const defaultLocale = "fr";
+const defaultLocale = "en";
 
 export default class App extends React.Component<undefined, undefined> {
     @lazyInject("store")

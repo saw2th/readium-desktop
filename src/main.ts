@@ -24,7 +24,7 @@ function createWindow() {
     //     event.returnValue = arg + "__PONG";
     // });
 
-    mainWindow = new BrowserWindow({ width: 800, height: 600 });
+    mainWindow = new BrowserWindow({ width: 1024, height: 800 });
     let rendererBaseUrl = __RENDERER_BASE_URL__;
 
     if (rendererBaseUrl === "file://") {

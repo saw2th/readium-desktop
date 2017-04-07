@@ -5,7 +5,7 @@ export interface I18NState {
 }
 
 const initialState: I18NState = {
-    locale: "fr",
+    locale: "en",
 };
 
 export function i18n(
